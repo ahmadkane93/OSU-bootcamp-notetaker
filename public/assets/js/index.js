@@ -181,3 +181,8 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+var button = document.getElementById('btn btn-primary btn-lg mt-4');
+button.onclick = function() {
+  location.assign('assets/notes.html');
+}
